@@ -2,11 +2,6 @@
 import requests
 from bs4 import BeautifulSoup
 import csv
-# url = 'https://www.mashina.kg/search/all/'
-
-# html = requests.get(url).text
-# soup = BeautifulSoup(html,'lxml')
-
 
 
 def write_to_csv(data):
