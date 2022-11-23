@@ -11,7 +11,6 @@ def write_to_csv(data):
 
 
 def get_html(url):
-    #возвращает html код стр
     response = requests.get(url)
     return response.text
 
