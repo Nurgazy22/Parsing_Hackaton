@@ -6,7 +6,7 @@ import csv
 
 def write_to_csv(data):
     with open('data.csv', 'a') as file:
-        writer = csv.writer(file, delimiter='/')
+        writer = csv.writer(file)
         writer.writerow([data['title'], data['descriptions'], data['price'], data['image']])
 
 
